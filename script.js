@@ -2,7 +2,7 @@ console.log('script')
 
 const loginBtn = document.querySelector('.btn-login')
 const logoutBtn = document.querySelector('.btn-logout')
-const testBtn = document.querySelector('.btn-test')
+const testBtn = document.querySelector('.btn-mint')
 
 const serverUrl = "Moralis server URL";
 const appId = "Moralis app id";
