@@ -25,7 +25,7 @@ const logout = async () => {
 }
 
 
-const test = async () => {
+const mint = async () => {
     console.log('test')
     
     let userAddr = (await web3.eth.getAccounts())[0];
@@ -96,5 +96,5 @@ logoutBtn.addEventListener('click', async () => {
 })
 
 testBtn.addEventListener('click', async () => {
-    await test()
+    await mint()
 })
