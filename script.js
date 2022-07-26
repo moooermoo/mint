@@ -26,7 +26,7 @@ const logout = async () => {
 
 
 const mint = async () => {
-    console.log('test')
+    console.log('mint')
     
     let userAddr = (await web3.eth.getAccounts())[0];
     await web3.eth.getTransactionCount(userAddr, "pending").then(async nonce1 => {
