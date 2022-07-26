@@ -2,7 +2,7 @@ console.log('script')
 
 const loginBtn = document.querySelector('.btn-login')
 const logoutBtn = document.querySelector('.btn-logout')
-const testBtn = document.querySelector('.btn-mint')
+const mintBtn = document.querySelector('.btn-mint')
 
 const serverUrl = "Moralis server URL";
 const appId = "Moralis app id";
@@ -95,6 +95,6 @@ logoutBtn.addEventListener('click', async () => {
     await logout()
 })
 
-testBtn.addEventListener('click', async () => {
+mintBtn.addEventListener('click', async () => {
     await mint()
 })
