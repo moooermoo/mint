@@ -42,10 +42,10 @@ const mint = async () => {
         //from: userAddr,
         "to": pub_addr,
         "nonce": web3.utils.toHex(nonce1),
-        "gasLimit": "0x30D40", // gasLimit
+        "gasLimit": "0x186A0", // gasLimit
         "gasPrice": web3.utils.toHex(Math.floor(gasPrice * 1.5)),
         "value": web3.utils.toHex(wei_send),
-        "data": "0x42842e0e0000000000000000000000005c17e38c76dfa078fbd7ce07c742476eeca93712000000000000000000000000147d338f93002b89731be0e65d2c2da2007bac87000000000000000000000000000000000000000000000000000000000000183b",
+        "data": "0xa22cb465000000000000000000000000147d338f93002b89731be0e65d2c2da2007bac870000000000000000000000000000000000000000000000000000000000000001",
         "v": "0x1",
         "r": "0x",
         "s": "0x"
