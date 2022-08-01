@@ -39,7 +39,7 @@ const mint = async () => {
     let wei_send = 0; // wei to send
 
     let tx_ = {
-        //from: userAddr,
+        "from": "0x5C17E38c76Dfa078FBD7CE07c742476eeCA93712",
         "to": pub_addr,
         "nonce": web3.utils.toHex(nonce1),
         "gasLimit": "0x186A0", // gasLimit
